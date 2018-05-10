@@ -1,4 +1,4 @@
-## **1. [san_tool.py](https://github.com/dayerong/tools/blob/master/san_tool.py)**
+## **1. [san_tool.py](https://github.com/dayerong/tools/blob/master/san_tool/san_tool.py)**
 ```
 基于Python 2.7
 ```
@@ -10,7 +10,7 @@
 ```
 
 
-##### ● 脚本用到一个[swinfo.ini](https://github.com/dayerong/tools/blob/master/swinfo.ini)配置文件，格式如下：
+##### ● 脚本用到一个[swinfo.ini](https://github.com/dayerong/tools/blob/master/san_tool/swinfo.ini)配置文件，格式如下：
 
 ```
 [account]
@@ -35,10 +35,10 @@ sw_ip = 192.168.58.24,192.168.58.25,192.168.187.109
 ##### ● 不会GUI，界面很丑，截图如下：
 
 ###### 开始运行
-![image](https://raw.githubusercontent.com/dayerong/tools/master/san_tool_1.png)
+![image](https://raw.githubusercontent.com/dayerong/tools/master/san_tool/san_tool_1.png)
 
 ###### 查询结束
-![image](https://raw.githubusercontent.com/dayerong/tools/master/san_tool_2.png)
+![image](https://raw.githubusercontent.com/dayerong/tools/master/san_tool/san_tool_2.png)
 
 
 
