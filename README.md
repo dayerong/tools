@@ -88,16 +88,16 @@ sw_ip = 192.168.58.24,192.168.58.25,192.168.187.109
 
 <br>
 <br>
-    另外生成一个Excel表，3张sheet分别为收集是否成功、输出文件信息、硬件配置信息（主机名、IP、型号、序列号）
+
+    另外生成一个Excel表，3张sheet分别为收集是否成功、输出文件信息、硬件配置信息（主机名、IP、型号、序列号）
 
 ![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup_4.png?raw=true)
 <br>
 ![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup_5.png?raw=true)
 <br>
+
     超链接快捷查看
 ![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup_6.png?raw=true)
 <br>
 ![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup_7.png?raw=true)
-
-
 ---
