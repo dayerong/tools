@@ -1,4 +1,4 @@
-- [san_tool.py](https://github.com/dayerong/tools/tree/master/san_tool) - SAN交换机端口查询工具
+- [san_tool.py](https://github.com/dayerong/tools/tree/master/san_tool) - SAN交换机端口搜索工具
 
 - [cisco_cfg_backup.py](https://github.com/dayerong/tools/blob/master/cisco_tool) - Cisco设备巡检、配置收集工具
 
