@@ -13,6 +13,9 @@
 4. 其实我用到最多的是当忘记了root密码，通过它去重置密码。（AIX下忘记root密码比Linux下恢复起来麻烦很多）
 ```
 
+```
+在NIM Master端运行
+```
 
 - 脚本执行输出如下：
 
@@ -152,6 +155,10 @@ Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
 1. 此脚本主要通过NIM Master Server对NIM Client进行系统备份（mksysb）。
 2. 手工选择需要备份的client，备份成功保存备份记录。
 3. NIM的功能真的非常强大，安装、升级、迁移、恢复等等无所不能。
+```
+
+```
+在NIM Master端运行
 ```
 
 - 脚本执行输出如下：
