@@ -140,7 +140,7 @@ Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
 
 ---
 
-#### **[nim_backup.sh](https://github.com/dayerong/tools/blob/master/san_tool/nim_backup.sh)**
+#### **[nim_backup.sh](https://github.com/dayerong/tools/blob/master/aix_tool/nim_backup.sh)**
 
 ``` 
 适用于AIX操作系统
@@ -151,7 +151,7 @@ Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
 ```
 1. 此脚本主要通过NIM Master Server对NIM Client进行系统备份（mksysb）。
 2. 手工选择需要备份的client，备份成功保存备份记录。
-3. NIM的功真的能非常强大，安装、升级、迁移等等无所不能。
+3. NIM的功能真的非常强大，安装、升级、迁移、恢复等等无所不能。
 ```
 
 - 脚本执行输出如下：
