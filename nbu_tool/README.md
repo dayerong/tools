@@ -37,6 +37,7 @@ Create Table: CREATE TABLE `nbu_policy` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_bin
 ```
 
+
 - 生成的页面如截图：
 
 ![image](https://github.com/dayerong/tools/blob/master/nbu_tool/nbu_policy.png?raw=true)
