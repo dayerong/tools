@@ -1,4 +1,4 @@
-#### **[nbu_policy.sh](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup.py)**
+#### **[nbu_policy.sh](https://github.com/dayerong/tools/blob/master/nbu_tool/nbu_policy.sh)**
 
 
 - 为什么写这个脚本？
@@ -10,9 +10,11 @@
 
 ```
 
-- 脚本格式很简单，其实就是过滤和处理字符串，awk+sed，有点难看。准备用Python写一个直接导出到Excel。
+- 脚本格式很简单，其实就是过滤和处理字符串，awk+sed，有点难看，准备用Python写一个直接导出到Excel。
+
+- 虽然脚本难看，但真的很实用，省了很多精力，每次简单执行脚本就能生成最新的策略信息，很爽。
 
 
 - 生成的页面如截图：
 
-![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup_7.png?raw=true)
+![image](https://github.com/dayerong/tools/blob/master/nbu_tool/nbu_policy.png?raw=true)

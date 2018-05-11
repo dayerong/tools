@@ -2,3 +2,5 @@
 
 - [cisco_cfg_backup.py](https://github.com/dayerong/tools/blob/master/cisco_tool) - Cisco设备巡检、配置收集工具
 
+- [san_tool.py](https://github.com/dayerong/tools/tree/master/nbu_tool) - NBU备份策略生成脚本
+
