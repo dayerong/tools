@@ -1,4 +1,4 @@
-## **2. [cisco_cfg_backup.py](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup.py)**
+## **[cisco_cfg_backup.py](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup.py)**
 
 ```
 基于Python 2.7
