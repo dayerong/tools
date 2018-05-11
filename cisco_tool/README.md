@@ -14,19 +14,18 @@
 
 - 脚本用到2个配置文件，cisco_ip_list.txt与command_list.txt，格式如下图：
 
+<br>
 
     cisco_ip_list.txt
-![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_ip_list.png?raw=true)    
-
-
+![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_ip_list.png?raw=true)
 
 <br>
 
     command_list.txt
 ![image](https://github.com/dayerong/tools/blob/master/cisco_tool/command_list.png?raw=true)
 
-<br>
 
+<br>
 
 - 执行过程见下图：
 
@@ -56,4 +55,6 @@
 ![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup_6.png?raw=true)
 <br>
 ![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup_7.png?raw=true)
+
+
 ---
