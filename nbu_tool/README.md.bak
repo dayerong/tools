@@ -14,28 +14,6 @@
 
 - 虽然脚本难看，但真的很实用，省了很多精力，每次简单执行脚本就能生成最新的策略信息，很爽。
 
-- 创建表的SQL
-
-
-```
-Create Table: CREATE TABLE `nbu_policy` (
-  `ID` mediumint(9) NOT NULL AUTO_INCREMENT,
-  `Policy_Name` varchar(30) COLLATE utf8_bin DEFAULT NULL,
-  `Policy_Type` varchar(30) COLLATE utf8_bin DEFAULT NULL,
-  `Policy_Status` varchar(10) COLLATE utf8_bin DEFAULT NULL,
-  `Volume_Pool` varchar(30) COLLATE utf8_bin DEFAULT NULL,
-  `Client_Name` varchar(30) COLLATE utf8_bin DEFAULT NULL,
-  `Client_IP` varchar(30) COLLATE utf8_bin DEFAULT NULL,
-  `Hardware` varchar(30) COLLATE utf8_bin DEFAULT NULL,
-  `OS` varchar(20) COLLATE utf8_bin DEFAULT NULL,
-  `Backup_Type` varchar(100) COLLATE utf8_bin DEFAULT NULL,
-  `Retention_Level` varchar(100) COLLATE utf8_bin DEFAULT NULL,
-  `Frequency` varchar(100) COLLATE utf8_bin DEFAULT NULL,
-  `Backup_Windows` varchar(1000) COLLATE utf8_bin DEFAULT NULL,
-  `Content` varchar(300) COLLATE utf8_bin DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_bin
-```
 
 - 生成的页面如截图：
 
