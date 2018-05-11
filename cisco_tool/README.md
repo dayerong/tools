@@ -1,10 +1,10 @@
-## **[cisco_cfg_backup.py](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup.py)**
+#### **[cisco_cfg_backup.py](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup.py)**
 
 ```
 基于Python 2.7
 ```
 
-##### ● 为什么写这个脚本？
+- 为什么写这个脚本？
 
 ```
 公司网管离职，让我临时代管公司网络，门外汉一个，接手后发现总部、分公司、仓库等各地几百台网络设备的信息都不完整，为了收集这些设备的信息，所以写了这个脚本。
@@ -12,10 +12,13 @@
 另外还有一个收集H3C的脚本，基本上一样。
 ```
 
-##### ● 脚本用到2个配置文件，cisco_ip_list.txt与command_list.txt，格式如下图：
+- 脚本用到2个配置文件，cisco_ip_list.txt与command_list.txt，格式如下图：
+
 
     cisco_ip_list.txt
-![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_ip_list.png?raw=true)
+![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_ip_list.png?raw=true)    
+
+
 
 <br>
 
@@ -24,7 +27,8 @@
 
 <br>
 
-##### ● 执行过程见下图：
+
+- 执行过程见下图：
 
 ###### 开始运行
     输入用户名、密码、enable密码。因为我们设置的交换机密码都一样，如果各不相同，那就要另外的写法了。
