@@ -4,10 +4,8 @@ import glob
 from configparser import ConfigParser
 import telnetlib
 import time
-import threading
 import datetime
 import re
-import subprocess
 import sys
 import os
 import xlwt
