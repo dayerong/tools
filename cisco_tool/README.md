@@ -35,23 +35,10 @@
 
 ###### 运行结束
     在当前目录下会创建output目录，该目录下会生成每台设备的命令执行结果。
-![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup_2.png?raw=true)
 
-<br>
-
-![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup_3.png?raw=true)
-
-<br>
-<br>
 
     另外生成一个Excel表，3张sheet分别为收集是否成功、输出文件信息、硬件配置信息（主机名、IP、型号、序列号）
 
-![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup_4.png?raw=true)
-<br>
-![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup_5.png?raw=true)
-<br>
-
-    超链接快捷查看
 ![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup_6.png?raw=true)
 <br>
 ![image](https://github.com/dayerong/tools/blob/master/cisco_tool/cisco_cfg_backup_7.png?raw=true)
