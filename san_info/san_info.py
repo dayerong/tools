@@ -246,7 +246,7 @@ class OperateExcel(object):
 
         begin_row = 1
         if port_wwn_map:
-            # 读取port_wwn_map列表（区分端口没有任何设备连接）
+            # 读取port_wwn_map列表（区分端口是否没有任何设备连接）
             for i in port_wwn_map:
                 if len(i) > 2:
                     sheet2.write(begin_row, 7, i[0], xls_style())
