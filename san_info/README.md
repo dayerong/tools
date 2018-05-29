@@ -1,10 +1,10 @@
-#### **[san_info.py](https://github.com/dayerong/tools/blob/master/san_info/san_info.py)**
+﻿#### **[san_info.py](https://github.com/dayerong/tools/blob/master/san_info/san_info.py)**
 
 ``` 
 基于Python 2.7
 ```
 
-- 脚本功能
+- 脚本功能：
 
 ```
 主要是用来收集SAN交换机（Brocade及OEM Brocade）的硬件信息、端口信息等，导出生成Excel。
@@ -16,16 +16,16 @@
 ```
 [account]
 sw_user = admin
-sw_password = admin
+sw_password = password
 
 [switch]
-sw_ip = 192.168.58.24,192.168.58.25,192.168.187.109
+sw_ip = 192.168.58.24,192.168.58.25,192.168.187.116,192.168.187.119,192.168.187.120,192.168.187.121,192.168.187.11
 ```
 
-- 脚本会检测网络能否到达交换机、检测用户登录数是否超过最大限制、检测用户密码的正确性。
+- 脚本会检测网络能否到达交换机、检测用户登录数是否超过最大限制、检测用户密码是否正确？
 
 
-- 执行过程如下：
+- 执行输出如下：
 
 ```
 D:\GitHub\tools\san_info>python san_info.py
