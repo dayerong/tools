@@ -245,8 +245,9 @@ class OperateExcel(object):
             sheet2.write(0, i, row0[i], head_style())
 
         begin_row = 1
+        # 判断端口是否有设备连接
         if port_wwn_map:
-            # 读取port_wwn_map列表（区分端口是否没有任何设备连接）
+            # 读取port_wwn_map列表，区分NPIV端口
             for i in port_wwn_map:
                 if len(i) > 2:
                     sheet2.write(begin_row, 7, i[0], xls_style())
