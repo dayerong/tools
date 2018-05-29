@@ -198,8 +198,8 @@ class CollectInfo(TelnetSwitch):
                             port_wwn_map.append((npiv_port, npiv_ports[x].strip(), 'npiv'))
                     else:
                         port_wwn_map.append((rs.split('\n')[i].split()[0], rs.split('\n')[i].split()[8]))
-            elif re.findall(r'No POD License', rs.split('\n')[i]):
-                port_unlicense += 1
+                elif re.findall(r'No POD License', rs.split('\n')[i]):
+                    port_unlicense += 1
         sw_hardware_info.append(port_count)
         sw_hardware_info.append(port_unlicense)
 
